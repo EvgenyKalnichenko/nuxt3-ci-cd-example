@@ -8,6 +8,14 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.0.0"
+    "@nuxt/eslint-config": "^0.1.1",
+    "eslint": "^8.31.0",
+    "nuxt": "3.0.0",
+    "push-dir": "^0.4.1",
+    "sass": "^1.57.1",
+    "scss": "^0.2.4"
+  },
+  "dependencies": {
+    "firebase": "^9.6.8"
   }
 }
