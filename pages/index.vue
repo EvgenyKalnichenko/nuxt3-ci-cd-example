@@ -64,18 +64,5 @@ onUnmounted(() => {
   grid-gap: 50px;
   grid-template-columns: repeat(4,1fr);
   flex-wrap: wrap;
-
-  @include xl-screen {
-    grid-gap: 20px;
-  }
-
-  @include md-screen {
-    grid-template-columns: repeat(3,1fr);
-  }
-
-  @include xs-screen {
-    grid-gap: 20px;
-    grid-template-columns: repeat(2,1fr);
-  }
 }
 </style>
