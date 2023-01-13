@@ -1,7 +1,10 @@
 import { resolve } from 'path'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    buildDir: 'dasdasdas',
+    buildDir: '/nuxt3-ci-cd-example/',
+    nitro: {
+        output: { dir: '/nuxt3-ci-cd-example/'}
+    },
     vite: {
         css: {
             preprocessorOptions: {
