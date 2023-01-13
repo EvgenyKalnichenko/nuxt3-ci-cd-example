@@ -49,10 +49,6 @@ const signOut = async () => {
     display: flex;
     align-items: center;
     gap: 20px;
-    @include sm-screen {
-      flex-direction: column;
-      justify-content: center;
-    }
   }
 
   &__container {
@@ -66,9 +62,5 @@ const signOut = async () => {
 nav {
   display: flex;
   gap: 15px;
-  @include sm-screen {
-    flex-direction: column;
-    justify-content: center;
-  }
 }
 </style>
