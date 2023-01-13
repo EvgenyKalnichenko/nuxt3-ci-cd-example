@@ -1,12 +1,16 @@
-import { resolve } from 'path'
+import {fileURLToPath} from "node:url";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    // buildDir: '/nuxt3-ci-cd-example/',
+    buildDir: '.output/nuxt3-ci-cd-example/',
     // nitro: {
     //     output: { dir: '/nuxt3-ci-cd-example/'}
     // },
+    // alias: {
+    //     'images': fileURLToPath(new URL('./assets/432/images', import.meta.url)),
+    //     'style': fileURLToPath(new URL('./assets/style', import.meta.url)),
+    //     'assets': fileURLToPath(new URL('./assets/dasdsasad/data', import.meta.url))
+    // },
     vite: {
-        publicDir: '/nuxt3-ci-cd-example/',
         css: {
             preprocessorOptions: {
                 scss: {
