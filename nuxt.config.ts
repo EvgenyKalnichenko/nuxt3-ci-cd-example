@@ -1,7 +1,7 @@
 import { resolve } from 'path'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    workspaceDir: '/nuxt3-ci-cd-example/',
+    buildDir: 'dasdasdas',
     vite: {
         css: {
             preprocessorOptions: {
